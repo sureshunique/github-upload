@@ -1,1 +1,16 @@
-this is sample testing for uploading project
+HOW TO UPLOAD FILES USING GIT BASH
+1. open the git bash application
+2. enter pwd command pwd stands for - (public working directory) to check the current location
+3. move to the existing location of the project through git bash using cd (folder name) command
+4. if you have reached the final location using ls command  in git bash check files or present or not.
+5.Enter git init which will creates the .git file which is hidden.
+6.to link the github repository to naming folder origin which will be created by the command
+		git add remote origin(folder name) <github repository link>
+7.git add . (to add all files) or git add <filename> (to add desired files)
+8.git status to know the status of commiting
+9.git commit -m "First commit"
+10.git push origin master.
+
+finally u have succesfullyy inserted the file and open ur repository to its successfully gets uploaded
+
+
